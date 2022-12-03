@@ -57,3 +57,24 @@ a {
     background-color: white;
     text-align: center;
 }
+
+.info-item-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.info-image {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 10px;
+}
