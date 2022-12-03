@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding:0;
-    margin: 0;
+    margin: 40px;
 }
 
 .header-logo {
@@ -35,6 +35,25 @@ a {
     color: white;
 }
 
+.top {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 80px 0;
+    gap: 10px;
+}
+
+.top-text {
+    width: 300px;
+}
+
+.img-placeholder {
+    background-color: #e5e7eb;
+    padding: 64px;
+}
+
+
 .info {
     background-color: white;
+    text-align: center;
 }
