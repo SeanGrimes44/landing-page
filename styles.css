@@ -6,4 +6,35 @@ body {
     background-color: #1f2937;
     padding:0%;
     margin: 0%;
+    padding: 0 100px;
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0;
+    margin: 0;
+}
+
+.header-logo {
+    margin: 0;
+    padding: 0;
+}
+
+ul, h1 {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.info {
+    background-color: white;
 }
