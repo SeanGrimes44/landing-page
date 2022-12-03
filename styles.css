@@ -13,8 +13,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:0;
-    margin: 40px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .header-logo {
@@ -54,10 +54,13 @@ a {
 
 
 .info {
-    background-color: white;
+    background-color: red;
     text-align: center;
 }
 
+.info h2 {
+
+}
 .info-item-container {
     display: flex;
     gap: 10px;
@@ -77,4 +80,15 @@ a {
     width: 100px;
     background-color: blue;
     border-radius: 10px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.quote h2 {
+    display: flex;
+    justify-content: right;
+    padding-right: 50px;
 }
