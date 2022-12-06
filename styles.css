@@ -74,16 +74,18 @@ a {
 
 
 .info {
-    background-color: red;
+    background-color: white;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 .info h2 {
-
+    margin-top: 0;
 }
 .info-item-container {
     display: flex;
-    gap: 10px;
+    gap: 50px;
     justify-content: center;
 }
 
@@ -92,14 +94,17 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 170px;
 }
 
 .info-image {
-    height: 100px;
-    width: 100px;
-    background-color: blue;
+    height: 150px;
+    width: 150px;
+    background-color: white;
     border-radius: 10px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 4px;
 }
 
 .quote {
