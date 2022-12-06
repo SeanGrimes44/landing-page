@@ -95,6 +95,7 @@ a {
     justify-content: center;
     align-items: center;
     width: 170px;
+    color: #1f2937;
 }
 
 .info-image {
@@ -109,7 +110,15 @@ a {
 
 .quote {
     background-color: #e5e7eb;
-    padding: 100px;
+    padding: 100px 300px;
+    color: #1f2937;
+}
+
+.quote h1 {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    
 }
 
 .quote h2 {
