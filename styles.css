@@ -1,12 +1,14 @@
 body {
     margin: 0;
+    font-family: sans-serif;
 }
 
 .header {
     background-color: #1f2937;
     padding:0%;
     margin: 0%;
-    padding: 0 100px;
+    padding: 0 200px;
+    color: white;
 }
 
 .header-items {
@@ -17,9 +19,11 @@ body {
     margin: 0px;
 }
 
-.header-logo {
+.header-logo h1 {
     margin: 0;
     padding: 0;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 ul, h1 {
@@ -33,6 +37,8 @@ ul, h1 {
 a {
     text-decoration: none;
     color: white;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .top {
@@ -44,12 +50,26 @@ a {
 }
 
 .top-text {
-    width: 300px;
+    width: 450px;
+}
+
+.top-text h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.top-text button {
+    background-color: #3882f6;
+    border: none;
+    padding: 8px 32px;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
 }
 
 .img-placeholder {
-    background-color: #e5e7eb;
-    padding: 64px;
+    background-color: gray;
+    padding: 100px;
 }
 
 
@@ -115,4 +135,14 @@ a {
 .call-text p {
     margin: 0;
     font-size: 12px;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 20px;
+}
+
+.footer p {
+    text-align: center;
+    margin: 0;
 }
